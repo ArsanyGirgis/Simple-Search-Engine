@@ -15,3 +15,11 @@ The programs reads the commands line-by-line and executes them.
 6. command: starting mysub > Prints all words that start with "mysub" followed by their number of occurrences. For example, if the command is "starting Te", it shall print all words starting with "Te", for example "Temperature" "Temperament".
 7. command : containing mystr > Prints all words that contain the string "mystr" followed by their number of occurrences. E.g. if the program is passed a command "containing al", it shall print words such as "shall" "all" in a table format.
 8. command: search mystr > Prints all words that contain the string "mystr"along with the line numbers in which they exist.
+
+The following is a sample CommandFile
+wordCount
+distWords
+charCount
+containing mega
+countWord Biology
+ending migo ==> should produce "Undefiened command" error search class
